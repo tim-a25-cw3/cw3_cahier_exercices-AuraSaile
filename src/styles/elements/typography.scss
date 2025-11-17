@@ -15,17 +15,20 @@ h6 {
 
 h1 {
     font-size: var(--font-size-h1);
+    font-family: var(--font-secondary);
     margin: 0;
     color: var(--color-primary);
 }
 
 h2 {
     font-size: var(--font-size-h2);
+    font-weight: 100;
     font-family: var(--font-secondary);
 }
 
 h3 {
-    font-size: var(--font-size-h3);
+    font-size: 16px;
+    font-weight: 600;
 }
 
 h4 {
@@ -38,4 +41,17 @@ h5 {
 
 h6 {
     font-size: var(--font-size-h6);
+}
+
+span {
+    font-weight: bold;
+}
+
+p {
+    font-weight: 100;
+}
+
+.tag {
+    font-family: 100;
+    font-size: 18px;
 }
